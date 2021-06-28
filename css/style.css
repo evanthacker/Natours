@@ -23,12 +23,20 @@ body{
 }
 
 .header{
+    position: relative;
     height: 95vh;
     background-image: linear-gradient(to right bottom, #7ed56fe8, #28b485e8), url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
-
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
-
 }
 
+.logobox {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 35px;
+}
